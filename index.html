@@ -59,6 +59,26 @@ footer{background:#04090c;border-top:1px solid var(--line);padding:40px 0;color:
 @media(max-width:850px){.links{display:none}.hero{min-height:600px}.grid{grid-template-columns:1fr 1fr}.about-grid,.contact-grid{grid-template-columns:1fr}.gallery{grid-template-columns:1fr 1fr}.footer-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:520px){.topbar .container{font-size:11px}.navin{height:68px}.logo-text strong{font-size:18px}.logo-mark{width:44px;height:44px}.hero{min-height:650px}.grid,.gallery,.stats{grid-template-columns:1fr}section{padding:60px 0}.section-head h2{font-size:34px}.cta h2{font-size:30px}}
 </style>
+  .whatsapp-float{
+  position:fixed;
+  right:20px;
+  bottom:20px;
+  z-index:100;
+  width:58px;
+  height:58px;
+  border-radius:50%;
+  background:#25D366;
+  color:white;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:28px;
+  box-shadow:0 5px 18px rgba(0,0,0,.35);
+  transition:.2s;
+}
+.whatsapp-float:hover{
+  transform:scale(1.08);
+}
 </head>
 <body>
 <div class="topbar"><div class="container"><span>📍 Sutar Mill Stop, Near Mughal Marbel, G.T Road, Lahore</span><span>☎ 0321 8312014 &nbsp; | &nbsp; 0301 4587235</span></div></div>
@@ -100,5 +120,10 @@ footer{background:#04090c;border-top:1px solid var(--line);padding:40px 0;color:
 </main>
 
 <footer><div class="container"><div class="footer-grid"><div><div class="footer-title">HAQ FAREED ALUMINUM</div><p>Wholesale dealer of aluminum products in Lahore.</p></div><div><div class="footer-title">Quick Links</div><div class="footer-links"><a href="#home">Home</a><a href="#products">Products</a><a href="#about">About Us</a><a href="#contact">Contact</a></div></div><div><div class="footer-title">Contact</div><div class="footer-links"><span>0321 8312014</span><span>0301 4587235</span><span>Lahore, Pakistan</span></div></div></div><div class="copy">© 2026 Haq Fareed Aluminum. All rights reserved.</div></div></footer>
-</body>
+ <a class="whatsapp-float"
+   href="https://wa.me/923218312014?text=Assalam-o-Alaikum%2C%20I%20want%20a%20quotation%20for%20aluminum%20products."
+   target="_blank"
+   aria-label="Contact us on WhatsApp">
+  ☎
+ </a></body>
 </html>
